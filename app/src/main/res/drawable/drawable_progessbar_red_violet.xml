@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <corners android:radius="2dp" />
+            <solid android:color="@color/vodafone_background"/>
+            <stroke android:color="@color/color_grey2"
+                android:width="1dp"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@android:id/progress"
+        >
+        <clip>
+            <shape>
+                <corners
+                    android:radius="2dp" />
+                <solid android:color="@color/color_red_violet_30"/>
+            </shape>
+        </clip>
+    </item>
+
+</layer-list>

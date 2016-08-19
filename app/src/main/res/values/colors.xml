@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_brand_bars">#E60000</color>
+    <color name="colorPrimary">#fe2222</color>
+    <color name="colorPrimaryDark">#d20808</color>
+    <color name="colorAccent">#b5c023</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+
+    <color name="color_dark_grey">#333333</color>
+    <color name="color_middle_grey">#666666</color>
+    <color name="color_dark_grey_60">#99333333</color>
+    <color name="color_dark_grey_30">#4D333333</color>
+    <color name="color_light_grey">#999999</color>
+    <color name="color_light_grey_30">#4D929292</color>
+    <color name="color_grey1">#CCCCCC</color>
+    <color name="color_light_grey_50">#dfdfdf</color>
+    <color name="color_grey4">#AFAFAF</color>
+    <color name="color_aqua_blue_10">#1A00B0CA</color>
+    <color name="color_grey2">#EBEBEB</color>
+    <color name="color_notification_orange">#F6B002</color>
+    <color name="tab_background">#5b5f62</color>
+
+    <color name="vodafone_background">#FFFFFF</color>
+
+    <color name="button_primary">#E60000</color>
+    <color name="button_primary_pressed">#D64C4C</color>
+    <color name="button_primary_disabled">#F4F4F4</color>
+    <color name="button_secondary_flat_pressed">#EBEBEB</color>
+
+    <color name="tab_inactive">#99333333</color>
+
+
+    <color name="color_aqua_blue">#00B0CA</color>
+    <color name="color_lemon_yellow">#FECB00</color>
+    <color name="color_turquoise">#007C92</color>
+    <color name="color_red_violet">#9C2AA0</color>
+    <color name="color_spring_green">#A8B400</color>
+
+    <color name="color_ui_green">#428600</color>
+
+    <color name="color_red_violet_30">#4D9C2AA0</color>
+    <color name="color_spring_green_30">#4DA8B400</color>
+    <color name="color_aqua_blue_30">#4D00B0CA</color>
+
+    <color name="feedback_green">#428600</color>
+    <color name="feedback_gray">#666666</color>
+    <color name="feedback_orange">#FF5400</color>
+
+    <color name="vodafone_footer_background_inactive">#EBEBEB</color>
+    <color name="vodafone_footer_background_active">#666666</color>
+    <color name="vodafone_footer_separator">#339A9A9A</color>
+    <color name="vodafone_footer_text_color_active">#FFFFFF</color>
+    <color name="vodafone_footer_text_color_inactive">#333333</color>
+
+    <color name="vodafone_red_30">#4DE60000</color>
+
+
+</resources>

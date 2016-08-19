@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="txt.vodfone.com.speedtestapplication">
+
+    <!-- Permissions required by the CoreLib -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!-- used if the app runs on older Android API levels -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <!-- Runtime permission group LOCATION (if target SDK is 23 or higher) -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!-- Runtime permission group PHONE (if target SDK is 23 or higher) -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <!-- The following permission is required only if Google Maps API v2 is embedded -->
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <!-- application -->
+    <application
+        android:name=".Mainpage.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- services -->
+        <service
+            android:name="com.tm.monitoring.TMService"
+            android:label="CoreLib" />
+        <service
+            android:name="com.tm.hbs.HBService"
+            android:label="TMHBService" />
+
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".Mainpage.Speedchekerhome"
+            android:label="@string/activity_tittle_speed_checker" />
+
+        <receiver android:name="com.tm.monitoring.TMRebootIntentReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.HOME" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".permission.NoPermissionsActivity"></activity>
+        <activity android:name=".Mainpage.Splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Speedtest.SpeedTestActivity" />
+        <activity android:name=".permission.PermissiongrantActivity"></activity>
+    </application>
+
+</manifest>

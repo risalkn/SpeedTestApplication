@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">SpeedTestApplication</string>
+
+    <string name="activity_tittle_speed_checker">Speed checker</string>
+
+
+    <string name="detail">Here is the detailed view of all your data usage. This includes the small stuff like when you are connected to Wifi and  when you are using this app which is free</string>
+    <string name="vodafone_monitor_network_title">Network Coverage</string>
+    <string name="vodafone_monitor_network_summary">Percentage of time spent in full coverage</string>
+    <string name="vodafone_monitor_data_coverage_title">Internet Connectivity</string>
+    <string name="vodafone_monitor_data_coverage_summary">Percentage of successful connectivity tests for internet or data services </string>
+    <string name="vodafone_monitor_calls_title">Calls made for the past month</string>
+    <string name="vodafone_monitor_calls_summary">Duration of outgoing calls in hours minutes and seconds</string>
+    <string name="vodafone_monitor_data_mobile_title">Data used for the past month</string>
+    <string name="vodafone_monitor_data_mobile_summary">Mobile data used in Megabytes</string>
+    <string name="vodafone_monitor_data_mobile_chart">Past 30 days of mobile data usage</string>
+    <string name="vodafone_monitor_app_mobile_title">Apps Mobile Data Usage</string>
+    <string name="vodafone_monitor_app_mobile_summary">Top 10 apps that uses most data</string>
+    <string name="vodafone_monitor_wifi">Wi-Fi</string>
+    <string name="vodafone_monitor_data_wifi_title">Wi-Fi usage</string>
+    <string name="vodafone_monitor_data_wifi_summary">Wi-Fi data used in megabytes</string>
+    <string name="vodafone_monitor_data_wifi_chart">Past 30 days of WiFi data usage</string>
+    <string name="vodafone_monitor_app_wifi_title">Apps Wi-Fi Data usage</string>
+    <string name="vodafone_monitor_app_wifi_summary">Top ten apps that used the most Wi-Fi data over the past 30 days</string>
+    <string name="vodafone_monitor_menu_reset">Reset data</string>
+    <string name="vodafone_monitor_reset_title">Reset network Data</string>
+    <string name="vodafone_moitor_dialog_reset_summary">This will reset all collected network data from your device. Do you want to proceed?</string>
+    <string name="vodafone_monitor_reset_feedback">All counters have been reset.</string>
+    <string name="vodafone_mobile_app_warning">This feature is not supported by your current Android release.</string>
+    <string name="last_update">Last Updated On</string>
+    <string name="noresults">No speed tests are registered yet, hit Start to perform your first one</string>
+    <string name="speedtestinfo">Check your network or Wifi speed now.</string>
+    <string name="previous_speedtest">Previous speed tests</string>
+    <string name="speedtestinfotwo">(*Speed tests are free on your vodafone home network.)</string>
+    <string name="speedtest4g">Preparing your \n speed test 4G</string>
+    <string name="vodafone_network">NETWORK</string>
+    <string name="vodafone_wifi">WIFI</string>
+
+
+    <!-- ### SECTION Splash Screen ### -->
+
+    <string name="vodafone_splashscreen_loading">Loading</string>
+
+
+    <!-- ### SECTION Alertdilog ### -->
+
+    <string name="vodafone_tittle_error_dilog">Not on your home network</string>
+    <string name="vodafone_tittle_permission_dilog">Grant Permissions</string>
+    <string name="vodafone_error_dilog">Speed tests are free on your vodafone home network.Additional charges may be applicable when you\'re roaming.Do you want to proceed?</string>
+    <string name="vodafone_permission_dilog">You will soon able to check your data but we need some data on the quality and use of the connectivity services.Turn on the network optimization so  that can collect this data and provide you with a better experience.</string>
+</resources>

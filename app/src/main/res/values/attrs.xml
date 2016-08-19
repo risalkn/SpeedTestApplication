@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="typeface" format="string"/>
+
+    <declare-styleable name="TypefaceTextView">
+        <attr name="typeface"/>
+    </declare-styleable>
+
+    <declare-styleable name="Speedometer">
+        <attr name="maxSpeed" format="float"></attr>
+        <attr name="currentSpeed" format="float"></attr>
+        <attr name="onColor" format="color"></attr>
+        <attr name="offColor" format="color"></attr>
+        <attr name="scaleColor" format="color"></attr>
+        <attr name="scaleTextSize" format="dimension"></attr>
+        <attr name="readingTextSize" format="dimension"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="MaterialProgressBar">
+        <attr name="inner_radius" format="dimension"/>
+        <attr name="progress_color" format="color"/>
+        <attr name="progress_stroke_width" format="dimension"/>
+        <attr name="progress" format="integer"/>
+        <attr name="max" format="integer"/>
+    </declare-styleable>
+
+</resources>
